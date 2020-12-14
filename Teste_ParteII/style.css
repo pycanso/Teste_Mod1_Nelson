@@ -1,0 +1,51 @@
+.body{
+    margin: 0;
+}
+#main{
+    height: 100%;
+    width: 80%;
+    margin-top: 0.5%;
+    margin-left: 6%;
+    border: 1px solid #000;
+}
+.nav{
+width: 100%;
+}
+.span{
+    display:inline-block;
+    margin-left: 15%;
+    height: 30px;
+    width: 18%;
+}
+#jogA{
+    border-right: 1px dotted #000;
+    display:inline-block;
+    text-align: center;
+    width: 47%;
+    min-height: 400px;
+    max-height: 410px;
+}
+#jogB{
+    display:inline-block;
+    text-align: center;
+    width: 47%;
+    min-height: 400px;
+    max-height: 410px;
+}
+.dBtnA{
+    display:inline-block;
+    text-align: center;
+    width: 45%;     
+}
+.dBtnB{
+    display:inline-block;
+    text-align: center;
+    width: 45%;    
+}
+#btnA{
+    margin-left: 40%;
+}
+#btnB{
+    display: none;
+    margin-left: 50%;
+}

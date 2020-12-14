@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo</title>
+</head>
+
+<body onload="blocoA(),blocoB() ">
+    <div id="main">
+        <nav id="nav">
+            <div class="span"> <span id="PontosA">
+                    <p>Pontos A:</p>
+                </span></div>
+            <div class="span"> <span id="Record">
+                    <p><b>Record:</b></p>
+                </span></div>
+            <div class="span"> <span id="PontosB">
+                    <p>Pontos B:
+                </span></p>
+            </div>
+        </nav>
+
+        <div id="jogA"></div>
+        <div id="jogB"></div>
+
+        <div class="dBtnA">
+            <button id="btnA" onclick="jogarA()">Jogador A</button>
+            <p id="valorJogA"></p>
+        </div>
+        <div class="dBtnB">
+            <button id="btnB" onclick="jogarB()">Jogador B</button>
+            <p id="valorJogB"></p>
+        </div>
+    </div>
+    <script src="app.js"> </script>
+</body>
+
+</html>
